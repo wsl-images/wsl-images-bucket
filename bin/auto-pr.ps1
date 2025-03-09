@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "wsl-images/main:main"
+    [String]$upstream = "wsl-images/main:master"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
