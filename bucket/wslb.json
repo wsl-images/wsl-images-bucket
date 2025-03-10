@@ -1,21 +1,22 @@
 {
-  "version": "0.0.1",
-  "description": "WSLB – A tool for managing WSL binaries",
-  "homepage": "https://github.com/wsl-images/wslb",
-  "license": "MIT",
-  "url": "https://github.com/wsl-images/wslb/releases/download/v0.0.1/wslb_0.0.1_windows_amd64.zip",
-  "hash": "sha256:657e55e3cdbd0e3bd0c42b4bc34e1489c2e53f2de51b2caae5b2127cb6cb4739",
-  "architecture": {
-    "64bit": {
-      "bin": [
-        "wslb.exe"
-      ]
-    }
-  },
-  "autoupdate": {
-    "url": "https://github.com/wsl-images/wslb/releases/download/v$version/wslb_$version_windows_amd64.zip"
-  },
-  "checkver": {
-    "github": "https://github.com/wsl-images/wslb"
-  }
+    "version": "0.0.1",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/wsl-images/wslb/releases/download/v0.0.1/wslb_Windows_i386.zip",
+            "bin": [
+                "wslb.exe"
+            ],
+            "hash": "430fa55eb42ef870d69626ea95a2edae844511cb7749324ca76737b280d601a3"
+        },
+        "arm64": {
+            "url": "https://github.com/wsl-images/wslb/releases/download/v0.0.1/wslb_Windows_arm64.zip",
+            "bin": [
+                "wslb.exe"
+            ],
+            "hash": "ccd8ceff907c614bd461b044028dfcd0ffa1e46881662af14ea71abcc293ab32"
+        }
+    },
+    "homepage": "https://github.com/wsl-images",
+    "license": "MIT",
+    "description": "WSLB is a command-line tool that simplifies building and installing Windows Subsystem for Linux (WSL) distributions from Docker images."
 }
