@@ -6,14 +6,14 @@
             "bin": [
                 "wslb.exe"
             ],
-            "hash": "d0067c96a6eb996140dcf7551b499f66e25d0bee6315c53cef5a09901b6d3d74"
+            "hash": "c1fe971b9b87703d4e0b1bcf5cff148f19896fcf566bbe1a388f4155dd0cb87c"
         },
         "arm64": {
             "url": "https://github.com/wsl-images/wslb/releases/download/v1.0.0/wslb_Windows_arm64.zip",
             "bin": [
                 "wslb.exe"
             ],
-            "hash": "03e3ef1e93d80b2246088390f6abd8acc24f7b6bc4eb75bfc378486079674ae7"
+            "hash": "d4dea5d44c9523710232cfca40a58a3cd40beba6d459dd74043e19e1348aa1a5"
         }
     },
     "homepage": "https://github.com/wsl-images",
