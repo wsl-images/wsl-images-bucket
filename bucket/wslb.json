@@ -1,19 +1,19 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wsl-images/wslb/releases/download/v1.0.0/wslb_Windows_x86_64.zip",
+            "url": "https://github.com/wsl-images/wslb/releases/download/v1.0.1/wslb_Windows_x86_64.zip",
             "bin": [
                 "wslb.exe"
             ],
-            "hash": "b32d8ea4a8ad3d9a92851018fd718e1c19638f657031e8d448999aa5154e6fdc"
+            "hash": "b98ae9822efa971741e7ff9a99c5f5273dad2924093c6ad7b1e848f8bb7b4a0d"
         },
         "arm64": {
-            "url": "https://github.com/wsl-images/wslb/releases/download/v1.0.0/wslb_Windows_arm64.zip",
+            "url": "https://github.com/wsl-images/wslb/releases/download/v1.0.1/wslb_Windows_arm64.zip",
             "bin": [
                 "wslb.exe"
             ],
-            "hash": "728994bf8ea2a7b49b3c0115a8ceab679d489e933f476ded841abed70a757360"
+            "hash": "b62cf5b008fa866067b2c4dd0a6a241c78375c95cb5dacb9180e931dfff402b4"
         }
     },
     "homepage": "https://github.com/wsl-images",
